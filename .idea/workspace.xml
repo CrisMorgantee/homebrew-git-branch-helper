@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2acd7245-5aca-4c9b-9a0f-c38c19faf9f3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Formula/gkb.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Formula/gkb.rb" afterDir="false" />
-    </list>
+    <list default="true" id="2acd7245-5aca-4c9b-9a0f-c38c19faf9f3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +54,7 @@
       <updated>1730780037061</updated>
       <workItem from="1730780038136" duration="701000" />
       <workItem from="1730780751593" duration="889000" />
-      <workItem from="1730782393584" duration="1431000" />
+      <workItem from="1730782393584" duration="1768000" />
     </task>
     <servers />
   </component>
