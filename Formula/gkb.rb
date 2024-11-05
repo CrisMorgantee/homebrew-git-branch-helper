@@ -1,16 +1,19 @@
 class Gkb < Formula
   desc "Git branch management utility"
   homepage "https://github.com/crismorgantee/git-branch-helper"
-  url "https://github.com/crismorgantee/git-branch-helper/archive/v0.1.tar.gz"
-  sha256 "e9f0c448ca1f64c5ed78db91637fba9bc760fa501a3db54d4c8d5ee773c08d50"
+  url "https://github.com/crismorgantee/git-branch-helper/archive/v0.2.tar.gz"
+  sha256 "d990aea8545f5083e4f74be239c9981782aeec57d4237358a19f0df83eaf412a"
   license "MIT"
 
   def install
-    bin.install "bin/gkb"
-    etc.install "config/gkb.conf" => "gkb/gkb.conf"
-    man1.install "man/gkb.1"
-    prefix.install "aliases/git-aliases.sh"
+    cd "git-branch-helper-#{version}" do
+      bin.install "bin/gkb"
+      etc.install "config/gkb.conf" => "gkb/gkb.conf"
+      man1.install "man/gkb.1"
+      prefix.install "aliases/git-aliases.sh"
+    end
   end
+
 
   def caveats
     <<~EOS
